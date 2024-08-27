@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enciptador</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
@@ -19,19 +20,21 @@
             <textarea class="textarea" id="miTextarea" oninput="actualizarMensaje()">Ingrese el texto</textarea>
             
             <div class="presentacion__enlaces">
-                <p class="parrafo1">Solo letras minúsculas</p>
+                <p  class="parrafo1"><img class ="admiracion"src="./assets/Group.png">Solo letras minúsculas
+                </p>
                 
                 <div class="presentacion__enlaces__botones">
-                    <button class="bottom-button" onclick="mostrarMensaje()">Encriptar</button>
-                    <button class="desencriptar-button" onclick="mostrarMensaje()">Desencriptar</button>
+                    <button class="bottom-button" onclick="encriptarTexto()">Encriptar</button>
+                    <button class="desencriptar-button" onclick="desencriptarTexto()">Desencriptar</button>
                 </div>
             </div>
         </section>
         
         <section class="presentacion__contenido2">
-            <img class="imagen2" src="./assets/Muñeco.png" alt="Foto de Ana García desarrolando un proyecto">
-            <P class="parrafo2">Ningun mensaje fue encontrado</P>
-            <p class="parrafo3">ingrese el texto que desea encriptar o desencriptar</p>
+            <img id="imagen2" class="imagen2" src="./assets/Muñeco.png">
+            <p class="parrafo2"><strong id="resultadoTexto">Ningun mensaje fue encontrado</strong></p>
+            <p id="parrafo3" class="parrafo3">Ingrese el texto que desea encriptar o desencriptar</p>
+            <button id="copiarButton" class="bottom-clon" onclick="copiarTexto()">Copiar</button>
         </section>
     </main>
     <footer class="footer">
