@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --color-primario: #F3F5FC;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
+    --color-hover: #272727;
+
+    --fuente-krona: 'Krona One', sans-serif;
+    --fuente-montserrat: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+
+.header{
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+
+.presentacion {
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion__contenido {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px; /* Añadimos espacio entre los elementos */
+    margin: 5px 100px;
+}
+
+.textarea {
+    background-color: var(--color-primario);
+    width: 577px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    border: none;
+    margin-bottom: 16px; /* Añadimos un margen inferior */
+}
+
+.parrafo1 {
+    font-family: "Inter", sans-serif;
+    font-size: 12px; /* Cambiado de size a font-size */
+    font-weight: 400; /* Cambiado de 205px a 400 */
+    color: #272727;
+    
+}
+
+.presentacion__enlaces__botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.presentacion__enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.bottom-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    gap: 8px;
+    padding: 24px;width: 328px;
+    height: 67px;
+}
+.desencriptar-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    gap: 8px;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+}
+.presentacion__contenido2 {
+    background-color: white;
+    width: 400px;
+    height: 944px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    gap: 16px; /* Añadimos espacio entre los elementos */
+    
+}
+.imagen2{
+    width: 336px;
+    height: 304px;
+    margin: 243px 32px 32px;
+
+
+}
+.parrafo2 {
+    font-family: "Inter", sans-serif;
+    font-size: 12px; /* Cambiado de size a font-size */
+    font-weight: 400; /* Cambiado de 205px a 400 */
+    color: #272727;
+    text-align: center;
+    
+}.parrafo3 {
+    font-family: "Inter", sans-serif;
+    font-size: 12px; /* Cambiado de size a font-size */
+    font-weight: 400; /* Cambiado de 205px a 400 */
+    color: #272727;
+    text-align: center;
+}

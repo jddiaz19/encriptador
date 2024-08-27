@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enciptador</title>
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <img src="./assets/Logo.png">
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <textarea class="textarea" id="miTextarea" oninput="actualizarMensaje()">Ingrese el texto</textarea>
+            
+            <div class="presentacion__enlaces">
+                <p class="parrafo1">Solo letras minúsculas</p>
+                
+                <div class="presentacion__enlaces__botones">
+                    <button class="bottom-button" onclick="mostrarMensaje()">Encriptar</button>
+                    <button class="desencriptar-button" onclick="mostrarMensaje()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="presentacion__contenido2">
+            <img class="imagen2" src="./assets/Muñeco.png" alt="Foto de Ana García desarrolando un proyecto">
+            <P class="parrafo2">Ningun mensaje fue encontrado</P>
+            <p class="parrafo3">ingrese el texto que desea encriptar o desencriptar</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Alura Latam</p>
+    </footer>
+</body>
+</html>
